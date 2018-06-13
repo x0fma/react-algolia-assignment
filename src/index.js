@@ -11,7 +11,8 @@ const SEARCH_API_KEY = '860bd6d75eafc6aee108f3d23a50ced1';
 const indexes = {
     'nba-teams': {
         label: 'Teams',
-        primary: 'name'
+        primary: 'name',
+        secondary: 'location',
     },
     'nba-players': {
         label: 'Players',
@@ -21,7 +22,7 @@ const indexes = {
     airports: {
         label: 'Airports',
         primary: 'name',
-        secondary: 'City',
+        secondary: 'city',
     }
 }
 
