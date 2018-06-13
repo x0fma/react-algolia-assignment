@@ -21,7 +21,7 @@ class HintPaper extends React.Component {
     }
 
     isSelected = (selected, index, row) =>
-        selected && (selected.index === index && selected.row === row);
+        selected && (selected.index === index && selected.row === row)
 
     onKeyDown = (key, e, handle) => {
         const { hits } = this.props;

@@ -6,7 +6,6 @@ import TextField from '@material-ui/core/TextField';
 import CloseIcon from '@material-ui/icons/Close';
 import HintPaper from './HintPaper';
 
-
 class AlgoliaSearchInput extends React.Component {
     state = {
         hintPaperOpen: false,
@@ -61,7 +60,7 @@ class AlgoliaSearchInput extends React.Component {
         this.helpers.forEach(helper => {
             helper.removeAllListeners('result');
         });
-    };
+    }
 
     queryAlgolia = (query) => {
         this.helpers.forEach(helper => {
@@ -125,7 +124,7 @@ class AlgoliaSearchInput extends React.Component {
             </div>
         );
     }
-}
+};
 
 AlgoliaSearchInput.propTypes = {
     appId: PropTypes.string.isRequired,
