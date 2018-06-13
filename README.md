@@ -28,6 +28,10 @@ The indexes configuration object take a particular shape:
     ...
   }
   ```
+  **NB**:
+   - the key `my-algolia-index-1` in the configuration object is the name of your algolia index
+   - `primary` and `secondary` *(optional)* must be attributes of your algolia data shape
+  
 ## Packages used
 - React
 - [Material-ui](https://github.com/mui-org/material-ui)
